@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    gap: 1rem;
+    height: 5rem;
+    background-color: bisque;
+    justify-content: center;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+
+}
+nav a.active{
+    color: rgb(255, 0, 170);
+    text-decoration: underline;
+    text-decoration-color: rgb(11, 136, 78);
+    text-decoration-thickness: 3px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.movie-card{
+     
+
+    height: 5rem;
+ 
+    width: 25%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.section{
+    display: grid;
+    place-content: center;
+    margin-top: 5px;
+
+}
+.genres{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+.genres button {
+    background-color: green;
+    color: white;
+    border: none;
+    height: 20px;
+    width: 50px;
+    font-size: 10px;
+    border-radius: 4px;
+}
+.home{
+    background-image: url("https://wallpaperaccess.com/full/5625915.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
